@@ -1,7 +1,7 @@
 import Main from '@/layouts/Main';
 
 const Index = (props: any) => {
-  console.log(props);
+  // console.log(props);
   return (
     <div>
       {/* <Header title="Header" /> */}

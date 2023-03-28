@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import NavLink from './Link';
+import NavLink from './link';
 
 export default function Post({ item }: any) {
   return (
@@ -11,6 +11,7 @@ export default function Post({ item }: any) {
             <Image
               layout="fill"
               src="https://egghead.io/_next/image?url=https%3A%2F%2Fd2eip9sf3oo6c2.cloudfront.net%2Fplaylists%2Fsquare_covers%2F000%2F432%2F520%2Fthumb%2FEGH_React_Mobx_TS.png&w=256&q=100"
+              alt="logo"
             />
           </div>
         </div>

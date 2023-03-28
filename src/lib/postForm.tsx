@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { tomorrow } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
@@ -24,11 +24,11 @@ function PostForm() {
       body: JSON.stringify(post),
     })
       .then((response) => response.json())
-      .then((data) => {
-        console.log('Success:', data);
+      .then((_data) => {
+        // console.log('Success:', data);
       })
-      .catch((error) => {
-        console.error('Error:', error);
+      .catch((_error) => {
+        // console.error('Error:', error);
       });
   };
 

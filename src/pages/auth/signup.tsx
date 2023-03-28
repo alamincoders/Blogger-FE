@@ -3,7 +3,7 @@ import { FcGoogle } from 'react-icons/fc';
 
 import Button from '@/components/button';
 import Input from '@/components/input';
-import NavLink from '@/components/Link';
+import NavLink from '@/components/link';
 
 const Signup = () => {
   const text = "Don't have an account?";
@@ -35,7 +35,7 @@ const Signup = () => {
           <Button className=" mt-2 flex w-full max-w-[350px] items-center justify-center gap-2 bg-[#7065F0]">
             <FcGoogle /> Continue with Google
           </Button>
-          <p className="justifty-center mt-2 flex w-full max-w-[350px] gap-1 text-center">
+          <p className="mt-2 flex w-full max-w-[350px] justify-center gap-1 text-center">
             {text}
             <NavLink className="text-red-400" href="/">
               Sign up for free
